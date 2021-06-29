@@ -9,18 +9,16 @@
     
     <form action="{{route('agenda.store')}}" method="POST">
       {{ csrf_field() }}
-      <label for="nombre">nombre</label>
-      <input type="text" name="nombre" id=""> <br>
-      <label for="apellidos">apellidos</label>
-      <input type="text" name="apellidos" id=""> <br>
-      <label for="Sexo">Sexo</label>
-      <input type="radio" name="sexo"  checked value="F">Femenino
-      <input type="radio" name="sexo"   value="M">Masculino  
-      <br>
-      <label for="celular">celular</label>
-      <input type="text" name="celular" id=""> <br>
-      <label for="direccion">direccion</label>
-      <input type="text" name="direccion" id=""> <br>
+      <label for="actividad">Actividades</label>
+      <input type="text" name="actividad" > <br>
+      <label for="modalidad">Actividades</label>
+      <input type="text" name="modalidad" id=""> Modalidad<br>
+      <label for="fecha"> Fecha</label>
+      <input type="text" name="fecha" id=""> Fecha<br>
+      <label for="duracion">Duracion</label>
+      <input name="duracion"   >Duracion <br>
+      <label for="lugar">Lugar</label>
+      <input type="text" name="lugar" > <br>
        <input type="submit" value="Registrar">
 
     </form>
